@@ -70,7 +70,6 @@
               <li>
                 <%= link_to "Logout", destroy_user_session_path, method: :delete %>
               </li>
-            <% end %>
             <% elsif @auth %>
               <li>
                 <%= image_tag(@auth['info']['image'], width: '50', height: '50', class: 'image-circle')%></li>
